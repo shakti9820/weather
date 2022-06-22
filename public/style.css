@@ -1,0 +1,126 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background: url(img.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container1{
+    color: white;
+    background-color: rgba(180, 180, 180, 0.301);
+    margin: 10px;
+    /* position: fixed; */
+}
+.container1 p{
+    /* width: 25%; */
+    display:inline;
+    color: white;
+    margin: 15px;
+    padding: 5 px;
+
+}
+a{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(84, 94, 139);
+    background-color: rgb(112, 150, 134);
+}
+.container2{
+    color: white;
+    position: absolute;
+    top:44%;
+    left: 24%;
+}
+.container2 h2{
+    font-size: 50px;
+    margin:23px;
+    padding: 5px;
+    border-bottom: 3px solid grey;
+    display: inline-block;
+}
+input {
+    margin: 10px;
+    padding:6px;
+    border-bottom: 2px solid grey;
+    background: none;
+    font-size: 30px;
+    color: white;
+}
+label{
+    font-size: 36px;
+    margin: 23px;
+    padding:5px;
+}
+::placeholder{
+    color: rgb(14, 143, 248);
+    opacity: 1;
+}
+#abc,#ab{
+    margin-bottom: 10px;
+    padding: 0px;
+}
+::selection {
+    color: red;
+    background: yellow;
+  }
+.btn{
+    font-size: 32px;
+    margin: 18px;
+    padding:4px;
+   
+        background-color: #8ca08cb6;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+}
+.btn:hover{
+    background-color: grey;
+    color: rgb(23, 35, 204);
+}
+.heading{
+    color: gold;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#forgot{
+    position: absolute;
+    top: 78%;
+    left: 400px;
+}
+#create{
+    position: absolute;
+    left: 400px;
+}
+#clk{
+    position: absolute;
+  top: -1%;
+  right: 45%;
+  
+    /* left : 100px; */
+}
+#weather{
+    position: absolute;
+    top: 1.5%;
+    right: 2%;
+}
+#ctry{
+    background: #f7f7f7b6;
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    
+}

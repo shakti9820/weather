@@ -1,0 +1,65 @@
+h1{
+   position: relative;
+   left: 38%;
+   margin-bottom: 2%;
+    /* width: 19vw; */
+    font-size: 85px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto; 
+    box-sizing: border-box;
+}
+#container{
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+    /* background-color: red; */
+    
+   margin: auto;
+    background: url('clock.png') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#h{
+    position: absolute;
+    background-color: black;
+    border-radius: 22px;
+    width: 1%;
+    height: 17%;
+    right: 10x;
+    /* top: 20px; */
+    /* bottom: 20px; */
+    top: 33.6%;
+    left: 49.7%;
+  transform-origin: bottom;
+    /* display: none; */
+}
+#m{
+    position: absolute;
+    background-color: black;
+    border-radius: 22px;
+    width: 1%;
+    height: 21%;
+    /* right: 10x; */
+    /* top: 20px; */
+    /* bottom: 20px; */
+    top: 29.2%;
+    left: 49.7%;
+    opacity: 0.8;
+    /* display: none; */
+    transform-origin: bottom;
+}
+#s{
+    position: absolute;
+    background-color: black;
+    border-radius: 22px;
+    width: 1%;
+    height: 24%;
+    /* right: 10x; */
+    /* top: 20px; */
+    /* bottom: 20px; */
+    top: 26.2%;
+    left: 49.7%;
+    opacity: 0.6;
+     /* display: none; */
+     transform-origin: bottom;
+}
