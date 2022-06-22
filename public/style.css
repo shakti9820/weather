@@ -6,20 +6,20 @@ body{
     background: url(img.jpg) no-repeat center center fixed;
     background-size: cover;
 }
-.container1{
+/* .container1{
     color: white;
     background-color: rgba(180, 180, 180, 0.301);
     margin: 10px;
     /* position: fixed; */
-}
-.container1 p{
+/*}
+.container1 p{*/
     /* width: 25%; */
-    display:inline;
+    /*display:inline;
     color: white;
     margin: 15px;
     padding: 5 px;
 
-}
+} */
 a{
     color: white;
     font-size: 50px;
@@ -93,8 +93,10 @@ label{
     text-align: center;
     font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 100px;
-    margin-left: 50px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    /*margin-left: 50%; */
 }
 #forgot{
     position: absolute;

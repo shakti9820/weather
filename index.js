@@ -13,18 +13,16 @@ app.use(bodyParser.urlencoded({extended : true}));
  app.get('/' , function(req,res){
       res.sendFile(__dirname+"/public/index1.html");
  })
- app.get('/about' , function(req,res){
-    res.send("<h1>welcome to about page</h1>");
-})
-app.get('/Contact' , function(req,res){
-    res.send("<h1>welcome to contact page</h1>");
-})
-app.get('/More' , function(req,res){
-    res.send("<h1>welcome to more page</h1>");
-})
-app.get('/clock' , function(req,res){
-    res.sendFile(__dirname + "/public1/index2.html");
-})
+//  app.get('/about' , function(req,res){
+//     res.send("<h1>welcome to about page</h1>");
+// })
+// app.get('/Contact' , function(req,res){
+//     res.send("<h1>welcome to contact page</h1>");
+// })
+// app.get('/More' , function(req,res){
+//     res.send("<h1>welcome to more page</h1>");
+// })
+
 // app.post('/' , function(req,res){
 //     var Username=req.body.username;
 //     var Password=req.body.password;
@@ -32,7 +30,7 @@ app.get('/clock' , function(req,res){
 // })
 
     app.post('/' , function(req,res){
-        var Cname=req.body.country;
+        var Cname=req.body.city;
         
   
     const url="https://api.openweathermap.org/data/2.5/weather?q="+ Cname+"&appid=b3ca2508275672f716a69a82a3f34f7d&units=metric";
